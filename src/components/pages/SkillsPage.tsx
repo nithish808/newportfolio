@@ -53,15 +53,6 @@ const SkillsPage = () => {
         { name: 'Streamlit Apps', level: 85 },
       ],
     },
-    {
-      title: 'Languages',
-      icon: '🗣️',
-      color: 'bg-orange-500/20',
-      skills: [
-        { name: 'Tamil', level: 100 },
-        { name: 'English', level: 85 },
-      ],
-    },
   ];
 
   return (

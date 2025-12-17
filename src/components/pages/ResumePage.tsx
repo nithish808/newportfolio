@@ -64,6 +64,7 @@ const ResumePage = () => {
           transition={{ delay: 0.2 }}
           className="text-center mb-12"
         >
+         <a href="/nithishkumar.pdf" download>
           <motion.button
             whileHover={{ scale: 1.05, boxShadow: '0 10px 30px rgba(6, 182, 212, 0.3)' }}
             whileTap={{ scale: 0.95 }}
@@ -71,6 +72,7 @@ const ResumePage = () => {
           >
             <span>📥</span> DOWNLOAD RESUME
           </motion.button>
+         </a> 
         </motion.div>
 
         <motion.div

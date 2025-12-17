@@ -9,6 +9,8 @@ const ProjectsPage = () => {
       tech: ['Python', 'Naive Bayes', 'Streamlit', 'NLP'],
       icon: '💬',
       color: 'from-primary/10 to-secondary/10',
+      code: 'https://github.com/nithish808/Email-Spam-Detection-using-ML.git',
+      demo: 'https://email-spam-detection.streamlit.app',
     },
     {
       year: '2025',
@@ -17,6 +19,8 @@ const ProjectsPage = () => {
       tech: ['Python', 'TensorFlow', 'Keras', 'LSTM', 'Streamlit'],
       icon: '🧠',
       color: 'from-purple-500/10 to-pink-500/10',
+      code: 'https://github.com/nithish808/next-word-prediction',
+       demo: 'https://email-spam-detection.streamlit.app',
     },
     {
       year: '2024',
@@ -25,6 +29,8 @@ const ProjectsPage = () => {
       tech: ['Python', 'GUI', 'Database', 'Automation'],
       icon: '🏨',
       color: 'from-secondary/10 to-primary/10',
+      code: 'https://github.com/nithish808/HOTEL-MANAGMENT-SYSTEM.git',
+       demo: 'https://email-spam-detection.streamlit.app',
     },
   ];
 
@@ -75,22 +81,44 @@ const ProjectsPage = () => {
                     </span>
                   ))}
                 </div>
-                <div className="flex gap-3">
-                  <motion.button 
-                    whileHover={{ scale: 1.02 }}
-                    whileTap={{ scale: 0.98 }}
-                    className="flex-1 py-2 border border-white/20 rounded-lg text-foreground text-sm hover:bg-white/5 flex items-center justify-center gap-2 transition-all"
-                  >
-                    <span>💻</span> CODE
-                  </motion.button>
-                  <motion.button 
-                    whileHover={{ scale: 1.02 }}
-                    whileTap={{ scale: 0.98 }}
-                    className="flex-1 py-2 gradient-primary rounded-lg text-foreground text-sm flex items-center justify-center gap-2"
-                  >
-                    <span>🚀</span> DEMO
-                  </motion.button>
-                </div>
+<div className="flex gap-3">
+  {/* SOURCE CODE */}
+  {project.code && (
+    <a
+      href={project.code}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex-1"
+    >
+      <motion.button
+        whileHover={{ scale: 1.02 }}
+        whileTap={{ scale: 0.98 }}
+        className="w-full py-2 border border-white/20 rounded-lg text-foreground text-sm hover:bg-white/5 flex items-center justify-center gap-2 transition-all"
+      >
+        💻 SOURCE CODE
+      </motion.button>
+    </a>
+  )}
+
+  {/* DEMO */}
+  {project.demo && (
+    <a
+      href={project.demo}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex-1"
+    >
+      <motion.button
+        whileHover={{ scale: 1.02 }}
+        whileTap={{ scale: 0.98 }}
+        className="w-full py-2 gradient-primary rounded-lg text-foreground text-sm flex items-center justify-center gap-2"
+      >
+        🚀 DEMO
+      </motion.button>
+    </a>
+  )}
+</div>
+              
               </div>
             </motion.div>
           ))}

@@ -44,7 +44,7 @@ const Navbar = ({ currentPage, setCurrentPage }: NavbarProps) => {
           }}
         >
           <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl gradient-primary flex items-center justify-center text-foreground font-bold text-lg md:text-xl shadow-lg shadow-primary/30">
-            P
+            Nk
           </div>
           <span className="text-lg md:text-xl font-bold text-primary">Portfolio</span>
         </motion.div>

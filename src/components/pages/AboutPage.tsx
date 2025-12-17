@@ -43,7 +43,7 @@ const AboutPage = () => {
               👤
             </div>
             <h3 className="text-2xl font-bold text-foreground mb-2">Nithishkumar V</h3>
-            <p className="text-primary mb-4">Data Analyst | ML Enthusiast</p>
+            <p className="text-primary mb-4">Data Analyst | ML & DL</p>
             <div className="flex items-center gap-2 text-muted-foreground mb-2">
               <span>📍</span>
               <span>Salem, Tamil Nadu, India</span>
@@ -69,11 +69,9 @@ const AboutPage = () => {
                 <h3 className="text-2xl font-bold text-foreground">My Journey</h3>
               </div>
               <p className="text-muted-foreground leading-relaxed">
-                I am looking for a professional opportunity in a forward-looking organization where I can develop my skills, grow continuously, and contribute positively through my abilities, dedication, and interest.
-              </p>
+                I am an MSc Data Science student at Periyar University with a strong interest in Data Analytics and Machine Learning. I enjoy working with data to extract meaningful insights and build intelligent solutions.              </p>
               <p className="text-muted-foreground leading-relaxed mt-4">
-                Currently pursuing my MSc in Data Science at Periyar University, I specialize in Machine Learning, Deep Learning, and building intelligent systems. I have hands-on experience with Python, R, PowerBI, and MySQL.
-              </p>
+                I have hands-on experience in Python, R, Power BI, and MySQL, and I have worked on academic and mini projects involving data analysis and machine learning.I am actively seeking internships and entry-level opportunities where I can apply my skills, learn continuously, and contribute to real-world projects.              </p>
             </div>
 
             <div>

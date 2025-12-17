@@ -63,7 +63,8 @@ const HomePage = ({ setCurrentPage }: HomePageProps) => {
           transition={{ delay: 0.3 }}
           className="text-lg md:text-xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed relative z-10"
         >
-          MSc Data Science student at Periyar University. Passionate about developing intelligent systems with Machine Learning and Deep Learning to solve real-world problems.
+         MSc Data Science student at Periyar University.Passionate about building ML & DL solutions for real-world problems.Open to Internships & Entry-Level Data Analyst Roles
+
         </motion.p>
 
         <motion.div
